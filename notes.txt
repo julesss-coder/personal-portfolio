@@ -21,3 +21,7 @@ Navbar
 
 Links:hover
 current?
+
+Links zu Unterabschnitten korrigieren:
+Home muss zu index.html führen
+About me muss nach oben gescrollt werden

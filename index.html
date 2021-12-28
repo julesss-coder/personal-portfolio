@@ -29,13 +29,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+            <a class="nav-link active text-dark" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">About</a>
+            <a class="nav-link text-dark" href="#about-me">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contact</a>
+            <a class="nav-link text-dark" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -48,7 +48,7 @@
   <!-- ============Portfolio Section =================-->
 
   <div class="container">
-    <div class="heading-wrapper text-center mt-5">
+    <div id="portfolio" class="heading-wrapper text-center mt-5">
       <h2>Hi, I'm Julia Felberbauer!</h1>
       <p>Web Developer</p>
       <div class="socials">
@@ -63,39 +63,44 @@
     
     <!--Zwei Alternativen ausprobieren: img-fluid vs. aspect ratio technique-->
     <div class="row mt-5">
+      <!--First website-->
       <div class="col-12 col-lg-6 mb-4">
         <div class="img-wrapper mb-2">
-          <img class="img-fluid" src="https://picsum.photos/732/458" alt="">
+          <a href="https://agitated-edison-7ab07a.netlify.app/" target="_blank">
+            <img class="img-fluid border border-dark" src="./images/Airbnb News Clone_small.png" alt="news.airbnb.com clone">
+          </a>
         </div>
-        <div class="text-wrapper">
-          example page
+        <div class="text-wrapper mt-3">
+          <p class="mb-2">Airbnb News clone, using Bootstrap 4 and custom CSS</p>
+          <small >December 20, 2021</small>
         </div>
       </div>
+      <!--Second website-->
       <div class="col-12 col-lg-6 mb-4">
         <div class="img-wrapper mb-2">
-          <img class="img-fluid" src="https://picsum.photos/732/458" alt="">
+          <a href="https://gallant-mahavira-0a7609.netlify.app/" target="_blank">
+            <img class="img-fluid border border-dark" src="./images/Newsweek Clone_small.png" alt="Newsweek.com clone">
+          </a>
         </div>
-        <div class="text-wrapper">
-          example page
+        <div class="text-wrapper mt-3">
+          <p class="mb-2">Newsweek.com clone, using Bootstrap 3 and custom CSS</p>
+          <small>November 28, 2021</small>
         </div>
       </div>
+      <!--Third website-->
       <div class="col-12 col-lg-6 mb-4">
         <div class="img-wrapper mb-2">
-          <img class="img-fluid" src="https://picsum.photos/732/458" alt="">
+          <a href="https://agitated-edison-7ab07a.netlify.app/" target="_blank">
+            <img class="img-fluid border border-dark" src="./images/Apple Clone_small.png" alt="Apple.com clone">
+          </a>
         </div>
         <div class="text-wrapper">
-          example page
+          <p class="mb-2">Apple.com clone, using CSS</p>
+          <small>November 16, 2021</small>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- ============About==============================-->
-
-
-  <!-- ===========Contact===============-->
-
-  <!--============Footer-->
   
   <!-- Bootstrap 5 CDN via jsDelivr-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
