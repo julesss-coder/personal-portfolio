@@ -11,3 +11,9 @@ h5 {
   font-family: "Raleway", sans-serif;
 }
 
+/* ============ Navigation bar ============== */
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+

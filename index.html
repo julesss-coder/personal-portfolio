@@ -16,14 +16,11 @@
 </head>
 <body>
   <!-- ===========Navbar============-->
-  <!--container fluid-->
-  <!-- Wie zeige ich an, was current ist, wenn ich nur EINE Seite zum Scrollen habe?-->
-  <nav class="navbar navbar-expand-md">
+  <nav class="navbar navbar-light bg-light sticky-top navbar-expand-md">
     <div class="container-fluid">
       <a class="navbar-brand text-dark" href="#">Julia Felberbauer</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
-          <i class="fas fa-bars py-1"></i>
         </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,14 +38,10 @@
       </div>
     </div>
   </nav>
-
   
-
-  <!-- default container for all other sectins from here on-->
   <!-- ============Portfolio Section =================-->
-
   <div class="container">
-    <div id="portfolio" class="heading-wrapper text-center mt-5">
+    <div class="heading-wrapper text-center pt-5 mt-5">
       <h2>Hi, I'm Julia Felberbauer!</h1>
       <p>Web Developer</p>
       <div class="socials">
@@ -61,11 +54,14 @@
       </div>
     </div>
     
-    <!--Zwei Alternativen ausprobieren: img-fluid vs. aspect ratio technique-->
-    <div class="row mt-5">
+    <div id="portfolio" class="row mt-5">
+      <div class="portfolio-intro text-center mb-2">
+        <p>Here are a few projects I have worked on recently:</p>
+      </div>
+      
       <!--First website-->
       <div class="col-12 col-lg-6 mb-4">
-        <div class="img-wrapper mb-2">
+        <div class="img-wrapper mb-2 mt-4">
           <a href="https://agitated-edison-7ab07a.netlify.app/" target="_blank">
             <img class="img-fluid border border-dark" src="./images/Airbnb News Clone_small.png" alt="news.airbnb.com clone">
           </a>
@@ -77,7 +73,7 @@
       </div>
       <!--Second website-->
       <div class="col-12 col-lg-6 mb-4">
-        <div class="img-wrapper mb-2">
+        <div class="img-wrapper mb-2 mt-4">
           <a href="https://gallant-mahavira-0a7609.netlify.app/" target="_blank">
             <img class="img-fluid border border-dark" src="./images/Newsweek Clone_small.png" alt="Newsweek.com clone">
           </a>
@@ -89,7 +85,7 @@
       </div>
       <!--Third website-->
       <div class="col-12 col-lg-6 mb-4">
-        <div class="img-wrapper mb-2">
+        <div class="img-wrapper mb-2 mt-4">
           <a href="https://agitated-edison-7ab07a.netlify.app/" target="_blank">
             <img class="img-fluid border border-dark" src="./images/Apple Clone_small.png" alt="Apple.com clone">
           </a>
@@ -103,7 +99,7 @@
   </div>
 
   <!-- ============About==============================-->
-  <div id="about-me" class="container text-center mt-5">
+  <div id="about-me" class="container text-center py-5">
     <div class="row">
       <div class="col">
         <h3>About me</h3>
@@ -115,8 +111,7 @@
   </div>
 
   <!-- ===========Contact===============-->
-
-  <div id="contact" class="container text-center mt-5">
+  <div id="contact" class="container text-center py-5 mt-5">
     <div class="row">
       <div class="col">
         <h3>Contact</h3>
@@ -127,8 +122,7 @@
   </div>
 
   <!--============Footer ================-->
-
-  <div class="container mt-5">
+  <div class="container mt-5 pt-5">
     <footer>
       <p><small>Copyright Julia Felberbauer 2021. All rights reserved.</small></p>
     </footer>
