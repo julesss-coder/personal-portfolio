@@ -1,0 +1,11 @@
+Add: 
+- [x] To-do list
+- [x] Shopping cart
+- [x] To-do list with API
+- ([ ] Link list to JavaScript games)
+- [ ] Personal information about me.
+
+
+Fix:
+- [x] Drop-down menu should collapse after I click outside the menu.
+- [x] Drop-down menu should collapse after I click on on of the menu items.
