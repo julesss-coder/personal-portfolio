@@ -2,8 +2,5 @@
 
 A portfolio of the websites I have created so far.
 
-```markdown
+Take a look: <a href="https://julesss-coder.github.io/personal-portfolio/" target="_blank">https://julesss-coder.github.io/personal-portfolio/</a>
 
-[https://julesss-coder.github.io/personal-portfolio/](https://julesss-coder.github.io/personal-portfolio/ "Personal Portfolio" target="_blank")
-
-```
